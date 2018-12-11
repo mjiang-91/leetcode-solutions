@@ -8,6 +8,14 @@ Take question 1 for example, URL is (https://leetcode.com/problems/two-sum/)[htt
 
 Remember to write test cases in each file, name convention is `test_xxx`, you can specify whatever name with `xxx`.
 
+Recommended steps to follow:
+
+1. Create new branch: `git checkout master -b [branch_name]`
+2. Modify and submit your change. 
+3. Checkout to `master` branch and rebase: `git checkout master && git rebase master [branch_name]`
+4. Resolve conflicts and push to remote: `git push --set-upstream origin [branch_name]`
+5. Raise `Pull Request` on repository page from your branch to master and wait for approval.
+
 ## How to run tests
 
 Change directory to the root directory of this repo where you can find `pytest.ini` in the same level and run following command:
