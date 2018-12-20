@@ -48,5 +48,6 @@ class Solution:
             return result
 
 
-    def test_solution():
-        // TODO
+def test_solution():
+    # TODO
+    pass

@@ -45,5 +45,5 @@ You should find following output:
 
 We can work on it continuously and communicate with each other in time.
 
-Thoughts and hints are welcomed as comment in code file.
+Thoughts and hints are welcome as comment in code file.
 

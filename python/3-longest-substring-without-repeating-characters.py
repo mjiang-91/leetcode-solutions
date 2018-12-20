@@ -17,7 +17,7 @@ class Solution:
             if value in characters:
                 cursor = characters[value]
                 
-                '''be careful when update the index 'begin' '''
+                # be careful when update the index 'begin'
                 if begin <= cursor:
                     begin = cursor + 1
             
@@ -30,8 +30,10 @@ class Solution:
             
         return result
     
-    def test_solution():
-        s = Solution()
-        str = "abcadcbb"
-        
-        assert(s.lengthOfLongestSubstring(str) == 3)
+
+# This function should be defined outside the class `Solution`
+def test_solution():
+    s = Solution()
+    str = "abcabcbb"
+
+    assert(s.lengthOfLongestSubstring(str) == 3)
